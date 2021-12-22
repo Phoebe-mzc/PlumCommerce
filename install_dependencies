@@ -1,4 +1,0 @@
-#!/bin/bash
-sudo yum install -y httpd
-sudo yum install -y mysql
-sudo amazon-linux-extras enable php7.4
