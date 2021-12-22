@@ -1,9 +1,10 @@
 #!/bin/bash
 sudo amazon-linux-extras install php7.4 -y
 sudo yum install -y httpd
-sudo wget http://dev.mysql.com/get/mysql57-community-release-el7-8.noarch.rpm
-sudo yum localinstall mysql57-community-release-el7-8.noarch.rpm
-sudo yum install mysql-community-server
+sudo wget http://repo.mysql.com/mysql-community-release-el7-5.noarch.rpm 
+sudo rpm -ivh mysql-community-release-el7-5.noarch.rpm
+sudo yum update -y
+sudo yum install mysql-server -y
 sudo yum clean metadata 
 sudo yum install -y php php-common php-pear 
 sudo yum install -y php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip}  
