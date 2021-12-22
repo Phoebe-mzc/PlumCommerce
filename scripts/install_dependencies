@@ -2,3 +2,5 @@
 sudo yum install -y httpd
 sudo yum install -y mysql
 sudo amazon-linux-extras enable php7.4
+sudo yum clean metadata
+sudo install php-cli php-pdo php-fpm php-json php-mysqlnd
