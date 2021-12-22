@@ -4,5 +4,5 @@ sudo amazon-linux-extras install php7.4
 sudo yum install -y httpd
 sudo yum install -y mysql
 sudo yum clean metadata 
-sudo yum install php php-common php-pear 
-sudo yum install php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip}  
+sudo yum install -y php php-common php-pear 
+sudo yum install -y php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip}  
