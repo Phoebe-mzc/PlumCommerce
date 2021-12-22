@@ -1,4 +1,4 @@
 #!/bin/bash
-sudo service httpd start
-sudo service mysql start
-sudo service php7.4-fpm start
+service httpd start
+service mysql start
+service php7.4-fpm start
