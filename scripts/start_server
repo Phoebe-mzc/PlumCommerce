@@ -1,4 +1,5 @@
 #!/bin/bash
 systemctl start httpd.service
 systemctl start mysqld.service
-sudo chmod 700 index.php | echo "<h1>Hello World from Plum Commerce Inc. <p> IP Address: $(hostname -f)</p> <p>AZ: $EC2_AVAIL_ZONE </h1></p>" > /var/www/html/index.html
+wget https://workshop.mzcloud.xyz/AWS-101-2.2.8/download/ec2-linux-web.tar.gz
+tar xvfz ec2-linux-web.tar.gz
