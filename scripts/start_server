@@ -1,6 +1,5 @@
 #!/bin/bash
 systemctl start httpd.service
 systemctl start mysqld.service
-cd /var/www/html
 wget https://workshop.mzcloud.xyz/AWS-101-2.2.8/download/ec2-linux-web.tar.gz
 tar xvfz ec2-linux-web.tar.gz
