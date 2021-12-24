@@ -3,6 +3,12 @@ os: linux
 files:
   - source: index.php
     destination: /var/www/html/
+  - source: get-index-meta-data.php
+    destination: /var/www/html/
+  - source: get-root-dir.php
+    destination: /var/www/html/
+  - source: index.php
+    destination: menu.php
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
