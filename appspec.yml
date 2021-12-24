@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /*.php
+  - source: /get-index-meta-data.php /get-root-dir.php /index.php /menu.php
     destination: /var/www/html/
 hooks:
   BeforeInstall:
