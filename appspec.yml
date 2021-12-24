@@ -7,8 +7,8 @@ files:
     destination: /var/www/html/
   - source: get-root-dir.php
     destination: /var/www/html/
-  - source: index.php
-    destination: menu.php
+  - source: menu.php
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
