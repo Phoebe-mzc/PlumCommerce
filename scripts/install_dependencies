@@ -8,3 +8,4 @@ sudo yum install mysql-server -y
 sudo yum clean metadata 
 sudo yum install -y php php-common php-pear 
 sudo yum install -y php-{cgi,curl,mbstring,gd,mysqlnd,gettext,json,xml,fpm,intl,zip}  
+sudo yum install -y telnet
